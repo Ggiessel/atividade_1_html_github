@@ -15,7 +15,62 @@
         background-color: rgb(0, 0, 0);
         font-family:system-ui, Arial, sans-serif;
         line-height: 1.5;
-    </style>
+      }
+
+      .container {
+        width: 900px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+
+      .box{
+        background: indigo;
+        border: 1px solid whitesmoke;
+        border-radius: 12px;
+        padding: 14px;
+        margin-bottom: 12px;
+      }
+
+        h1, h2{
+          color: lightblue;
+          margin: 0 0 8px;
+        }
+
+        .header-interno p {
+          margin: 0;
+          color: #d1d5db;
+        }
+
+        p{
+          color:burlywood
+        }
+
+        #apresentacao{
+          border-left: 8px solid blueviolet
+        }
+
+        .nav {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          gap: 10px;
+          flex-wrap: nowrap;
+
+        }
+
+        .nav-link {
+          display: inline-block;
+          text-decoration: none;
+          color: black;
+          background: yellow;
+          padding: 8px 10px;
+          border-radius: 10px;
+          font-weight: 700;
+        }
+
+        </style>
+  
   
   </head>
 
@@ -43,8 +98,7 @@
       </nav>
 
       <main id="conteudo">
-        <div class="row" id="linha-1">
-          <section class="box-panel" id="apresentacao">
+          <section class="box" id="apresentacao">
             <h2>Quem é o Batman?</h2>
             <p>
               Batman (Bruce Wayne) é um personagem da DC Comics que atua como justiceiro de Gotham. Ele não tem superpoderes, sua força está em 
@@ -57,7 +111,7 @@
               descisões políticas, interesses econômicos, falhas nas instiuições afetam o cotidiano das pessoas, especialmente nas periferias.
             </p>
           </section>
-        </div>
+        
         <section class="box" id="galeria">
           <h2>Galeria</h2>
           <div class="gallery" id="galeria-imagens">
